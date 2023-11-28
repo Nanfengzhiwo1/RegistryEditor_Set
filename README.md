@@ -11,7 +11,8 @@
 **3.refresh the RegistryEditor**
 
 # Preview
-![image](https://github.com/Nanfengzhiwo1/RegistryEditor_Set/assets/107869748/a3158285-cd63-447f-bb19-115eab4aaa74)
+![image](https://github.com/Nanfengzhiwo1/RegistryEditor_Set/assets/107869748/32a5da17-115b-4442-8c62-ac7c854b71ef)
+
 
 
 
