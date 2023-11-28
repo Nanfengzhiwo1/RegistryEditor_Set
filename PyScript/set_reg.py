@@ -1,6 +1,9 @@
 import winreg
 
 reg_path=r"Software\perforce\environment"
+reg_name="Tom"
+reg_value="123"
+
 
 def set_reg_env(name,value):
     winreg.SetValueEx(reg_handler,f"{name}",0,winreg.REG_SZ,f"{value}")
@@ -19,5 +22,5 @@ if __name__ == "__main__" :
         print("reg_variables are existed.")
     else:
         print("Cann't find reg_variables!But it's created now")
-        set_reg_env("Tom","123")    
+        set_reg_env(reg_name,reg_value)    
     winreg.CloseKey(reg_handler)
