@@ -1,7 +1,10 @@
 import winreg
 
-reg_path=r"Software\perforce\environment"
+# sub_key's path in HKEY_CURRENT_USER
+reg_path=r"Software"
+# sub_key's name
 reg_name="Tom"
+# sub_key's data
 reg_value="123"
 
 
